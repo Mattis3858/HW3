@@ -1,0 +1,11 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.right-sidebar {
+  padding-left: 0;
+  margin-left: 0.5%;
+  text-align: left;
+  width: 14.7%;
+  font-size: 13px;
+}

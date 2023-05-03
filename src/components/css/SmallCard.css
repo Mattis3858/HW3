@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.small-card {
+  float: left;
+  width: 202px;
+  height: 112px;
+  background-color: aquamarine;
+  margin-left: 2%;
+  border-radius: 15px;
+}
+.title {
+  font-weight: 600;
+  text-align: left;
+  margin: 8% 0% 5% 5%;
+}
+.datas {
+  margin-left: 5%;
+}
+.data {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  display: inline-block;
+}
+.percentage {
+  font-weight: 0;
+  display: inline-block;
+  margin-left: 30%;
+}
