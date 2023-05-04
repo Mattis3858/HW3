@@ -1,7 +1,8 @@
 import React from "react";
 import "./css/SmallCard.css";
+import { BsArrowUpRight, BsArrowDownRight } from "react-icons/bs";
 
-const SmallCard = ({ title, data, percentage, backgroundColor }) => {
+const SmallCard = ({ title, data, percentage, backgroundColor, icon }) => {
   return (
     <div
       className="small-card"
@@ -11,6 +12,7 @@ const SmallCard = ({ title, data, percentage, backgroundColor }) => {
       <div className="datas">
         <div className="data">{data}</div>
         <div className="percentage">{percentage}</div>
+        {icon === "up" ? <BsArrowUpRight /> : <BsArrowDownRight />}
       </div>
     </div>
   );

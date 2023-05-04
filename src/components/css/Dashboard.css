@@ -5,12 +5,49 @@
 .cards {
   display: flex;
 }
-.navbar {
-  margin: 2% 0% 0% 2%;
-  display: flex;
-  height: 30%;
+.dashboard {
+  width: 70vw;
 }
-.navbar input {
-  margin-left: 3%;
-  height: 20px;
+.top-nav {
+  overflow: hidden;
+  height: 10vh;
+}
+.top-nav a {
+  color: black;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  top: 30%;
+}
+.top-nav input {
+  width: 12%;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  top: 30%;
+  margin-left: 40%;
+}
+.nav-right {
+  position: relative;
+  top: 33%;
+}
+.nav-content-left {
+  margin-left: 2%;
+}
+.nav-content {
+  margin-right: 2%;
+}
+
+.nav-input {
+  height: 3vh;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  border-color: rgba(0, 0, 0, 0.05);
+}
+.nav-input {
+}
+hr {
+  opacity: 0.3;
 }
