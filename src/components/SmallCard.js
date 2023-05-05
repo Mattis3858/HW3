@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/SmallCard.css";
-import { BsArrowUpRight, BsArrowDownRight } from "react-icons/bs";
+import { HiArrowTrendingDown, HiArrowTrendingUp } from "react-icons/hi2";
 
 const SmallCard = ({ title, data, percentage, backgroundColor, icon }) => {
   return (
@@ -12,7 +12,11 @@ const SmallCard = ({ title, data, percentage, backgroundColor, icon }) => {
       <div className="datas">
         <div className="data">{data}</div>
         <div className="percentage">{percentage}</div>
-        {icon === "up" ? <BsArrowUpRight /> : <BsArrowDownRight />}
+        {icon === "up" ? (
+          <HiArrowTrendingUp style={{ marginLeft: "0.3vw" }} />
+        ) : (
+          <HiArrowTrendingDown style={{ marginLeft: "0.3vw" }} />
+        )}
       </div>
     </div>
   );
