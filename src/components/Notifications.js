@@ -92,7 +92,7 @@ function NotificationTime({ time }) {
   return (
     <div
       style={{
-        marginLeft: "7%",
+        marginLeft: "10%",
         fontSize: "12px",
         fontWeight: "400",
         color: "rgba(0, 0, 0, 0.4)",
